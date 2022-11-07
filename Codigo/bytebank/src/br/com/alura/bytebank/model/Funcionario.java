@@ -8,6 +8,12 @@ public class Funcionario {
     private int matricula;
     private LocalDate dataNacimento;
 
+    public Funcionario(String nome, int matricula, LocalDate dataNacimento) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.dataNacimento = dataNacimento;
+    }
+
     public String getNome() {
         return nome;
     }
